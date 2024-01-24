@@ -1,0 +1,31 @@
+.all{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 1000px;
+  background-color: #000000;
+}
+.titles{
+color:#c7e1d4;
+font-family:sans-serif; 
+}
+.buttons-cotainer{
+display: flex;
+justify-content: space-between;
+width: 500px;
+}
+.button{
+  
+  border-radius: 10px;
+background-color: #c4e0d2;
+border: none;
+color: #093b1d;
+font-size: 16px;
+padding: 10px 20px;
+}
+.button:hover{
+  cursor: pointer;
+background-color: #6b3636;
+color: #c6a2a2;
+}
